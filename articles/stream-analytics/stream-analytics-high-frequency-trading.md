@@ -458,4 +458,4 @@ It's worth noting that most of the query, other than the JavaScript UDA, can be 
 
 Currently, the UDA cannot be debugged in Visual Studio. We are working on enabling that with the ability to step through JavaScript code. In addition, note that the fields reaching the UDA have lowercase names. This was not an obvious behavior during query testing. But with Azure Stream Analytics compatibility level 1.1, we preserve the field name casing so the behavior is more natural.
 
-I hope this article serves as an inspiration for all Azure Stream Analytics users, who can use our service to perform advanced analytics in near real time, continuously. Let us know any feedback you have to make it easier to implement queries for advanced analytics scenarios.
+I hope this article serves as an inspiration for all Azure Stream Analytics users, who can use our service to perform advanced analytics in near real time, continuously. Let us know any feedback you have to make it easier to implement queries for advanced analytics scenarios. 
