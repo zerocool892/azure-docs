@@ -122,7 +122,7 @@ The user who created the item is automatically the owning user of the item. An o
 
 **Background**
 
-In the POSIX ACLs, every user is associated with a "primary group." For example, user "alice" might belong to the "finance" group. Alice might also belong to multiple groups, but one group is always designated as her primary group. In POSIX, when Alice creates a file, the owning group of that file is set to her primary group, which in this case is "finance." The owning group otherwise behaves similarly to assigned permissions for other users/groups.
+In the POSIX ACLs, every user is associated with a "primary group." For example, the user might belong to the "finance" group. The user might also belong to multiple groups, but one group is always designated as her primary group. In POSIX, when the user creates a file, the owning group of that file is set to her primary group, which in this case is "finance." The owning group otherwise behaves similarly to assigned permissions for other users/groups.
 
 Because there is no “primary group” associated to users in Data Lake Storage Gen1, the owning group is assigned as below.
 
