@@ -70,7 +70,7 @@ In many cases, an anchor is an entry point to your app's experience. You'll want
 
 ### Targets
 
-In the target scenario, the location of an anchor is well known. For example, in a fictional mixed-reality painting app, one user places a virtual canvas on the wall. She instructs the other users in the room to point their devices at the same place on the wall to locate the anchor and begin the experience.  
+In the target scenario, the location of an anchor is well known. For example, in a fictional mixed-reality painting app, one user places a virtual canvas on the wall. They instruct the other users in the room to point their devices at the same place on the wall to locate the anchor and begin the experience.  
 
 Another example of a target scenario might be a sign in a coffee shop that reads, “Scan for deals.” The coffee shop has placed an anchor here. As users scan the sign, they locate the anchor and enter the augmented-reality experience to find deals on coffee.
 
