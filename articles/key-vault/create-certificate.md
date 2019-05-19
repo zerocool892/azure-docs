@@ -64,7 +64,7 @@ When a request to create a KV certificate completes, the status of the pending o
 
 ```  
 
- If the issuer name is not specified, then the issuer name is set to "Unknown". When issuer is "Unknown", the certificate owner will have to manually get a x509 certificate from the issuer of his/her choice, then merge the public x509 certificate with the key vault certificate pending object to complete the certificate creation.
+ If the issuer name is not specified, then the issuer name is set to "Unknown". When issuer is "Unknown", the certificate owner will have to manually get a x509 certificate from the issuer of their choice, then merge the public x509 certificate with the key vault certificate pending object to complete the certificate creation.
 
 ```  
 "issuer": {  
