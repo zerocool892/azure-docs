@@ -44,7 +44,7 @@ As you develop code for your service, and before you're ready to check it in, co
 ## Use Dev Spaces for team development
 Let's demonstrate these ideas with a concrete example using our *webfrontend* -> *mywebapi* sample application. We'll imagine a scenario where a developer, Scott, needs to make a change to the *mywebapi* service, and *only* that service. The *webfrontend* won't need to change as part of Scott's update.
 
-_Without_ using Dev Spaces, Scott would have a few ways to develop and test his update, none of which are ideal:
+_Without_ using Dev Spaces, the user would have a few ways to develop and test their update, none of which are ideal:
 * Run ALL components locally, which requires a more powerful development machine with Docker installed, and potentially MiniKube.
 * Run ALL components in an isolated namespace on the Kubernetes cluster. Since *webfrontend* isn't changing, using an isolated namespace is a waste of cluster resources.
 * ONLY run *mywebapi*, and make manual REST calls to test. This type of testing doesn't test the full end-to-end flow.
