@@ -83,7 +83,7 @@ Here is an example:
 1. Marketing employee buys ads from Google to drive traffic to the
     company\'s landing page <https://contoso.com>. This landing page has
     a \"try my product\" link that goes to <https://appsource.com>.
-2. A user clicks the ad and lands on his company\'s landing page.
+2. A user clicks the ad and lands on their company\'s landing page.
     1.  Referral URL = google.com
     2.  Landing Page URL =
         <https://contoso.com/?utm_campaign=MyCampaignAdName&utm_source=MySourceAdName>
