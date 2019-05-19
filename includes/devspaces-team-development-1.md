@@ -39,9 +39,9 @@ With Azure Dev Spaces, you can set up a *shared* dev space in Azure. Each develo
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state. You're still iteratively shaping it, testing it, and experimenting with solutions. Azure Dev Spaces provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
 ## Use Dev Spaces for team development
-Let's demonstrate these ideas with a concrete example using our *webfrontend* -> *mywebapi* sample application. We'll imagine a scenario where a developer, Scott, needs to make a change to the *mywebapi* service, and *only* that service. The *webfrontend* won't need to change as part of Scott's update.
+Let's demonstrate these ideas with a concrete example using our *webfrontend* -> *mywebapi* sample application. We'll imagine a scenario where a developer, The user needs to make a change to the *mywebapi* service, and *only* that service. The *webfrontend* won't need to change as part of their update.
 
-_Without_ using Dev Spaces, Scott would have a few ways to develop and test his update, none of which are ideal:
+_Without_ using Dev Spaces, the user would have a few ways to develop and test his update, none of which are ideal:
 * Run ALL components locally. This requires a more powerful development machine with Docker installed, and potentially MiniKube.
 * Run ALL components in an isolated namespace on the Kubernetes cluster. Since *webfrontend* isn't changing, this is a waste of cluster resources.
 * ONLY run *mywebapi*, and make manual REST calls to test. This doesn't test the full end-to-end flow.
